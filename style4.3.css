@@ -1,0 +1,16 @@
+body {
+width: 2000px;}
+
+
+.first { 
+position: static;
+background-color: bisque;}
+
+.second {
+position: static;
+background-color: aquamarine;}
+
+.third {
+position: static;
+background-color: rgb(226, 95, 95);}
+

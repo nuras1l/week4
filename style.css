@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #141414;
+}
+
+
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+    top: 17px;
+    left: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type:none;
+    font-family:  sans-serif;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    font: DM Sans;
+}
+.menu a:hover{
+    color: #118DA8 ;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.image {
+    width: 650px;
+    height: 873.44px;
+    padding: 0;
+
+}
+
+.content {
+    width: 500px;
+    height: 500px;  
+    font-family:  sans-serif;
+  
+}
+
+.content h2 {
+    margin-top: 300px;
+    width: 526px;
+    height: 176px;
+    top: 162.58px;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 88px;
+
+}
+
+
+.content h2 span {
+    width: 526;
+    height: 176;
+    top: 162.58px;
+    font-size: 75px;
+    font-style: DM Sans;
+
+}
+
+.content p{
+    margin-top: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: DM Sans;
+
+}
+
+.platforms {
+    margin-top: 20px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.list2 {
+    width: 1400px;
+    height: 2088px;
+    left: 20px;
+    background-color: #141414;
+}
+
+.epo {
+    width: 1300px;
+    height: 99px;
+    font-family:  sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 85px;
+    
+
+}
+ .logoEposides{
+    font-family:  sans-serif;
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    left: 50px;
+    display: inline;
+
+}
+
+.linkepo {
+    width: 178px;
+    height: 51px;
+    top: 23.56px;
+    color: white;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #118DA8;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+}
+
+
+.linkepo:hover {
+    background-color: #118DA8;
+
+}
+
+.backepo3 {
+    display: flex;
+    width: 1300px;
+    height: 545px;
+    margin-top: -0.44px;
+    margin-left: 50px;
+    border-radius: 32px;
+    background-color: #000000;
+}
+
+.epo3image {
+
+    width: 389px;
+    height: 465px;
+    margin: 35px;
+
+}
+
+.epo3content {
+    margin-top: 40.44px;
+    left: 482px;
+    margin-bottom:39.56px;
+    margin-right: 40px;
+    font-family:  sans-serif;
+}
+.Gear {
+    width: 73px;
+    height: 27px;
+    margin-top: 7.56px;
+    background-color: #171614 ;
+    font-family:  sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    padding-left: 16px;
+    align-content: center;
+}
+
+.Gear:hover{
+    background-color:#118DA8 ;
+}
+
+.Eposide3 {
+    margin-top: 48.44px;
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    margin-bottom: 0;
+    font-family:  sans-serif;
+
+
+}
+.epo3content h3 {
+    width: 701px;
+    height: 141px;
+    top: 127.56px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    font-family:  sans-serif;
+
+
+
+}
+.commentepo3 {
+    margin-top: 28px;
+    width: 757px;
+height: 99px;
+top: 296.56px;
+font-family:  sans-serif;
+font-weight: 300;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0%;
+color: #FFFFFFB2 ;
+
+}
+.epodetails {
+    margin-bottom: 0.44px;
+    width: 208px;
+    height: 51px;
+    top: 413.56px;
+
+}
+.backepo2{
+    display: flex;
+    width: 1300px;
+    height: 512px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 32px;
+    background-color: #000000;
+
+}
+
+.epo2image {
+    margin: 40px 0px 40px 40px;
+}
+.epo2content {
+    display: inline;
+    margin: 40.44px 40px 39,56px 53px;
+}
+.tips {
+
+    width: 136px;
+    height: 27px;
+    margin: 48px 682px 0px 53px
+    
+
+}
+
+.Eposide2 {
+    display: flex;
+    margin: 48.44px 70px 0px 53px;
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    margin-bottom: 0;
+    font-family:  sans-serif;
+
+}
+
+.epo2h3 {
+    width: 676;
+    height: 141;
+    top: 127.56px;
+    margin: 0px 102px 0px 53px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    font-family:  sans-serif;
+
+}
+
+.epo2p {
+    font-family:  sans-serif;
+    width: 773;
+    height: 66;
+    margin-top: 28px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2 ;
+}
+.epo2details {
+    margin-top: 18px;
+}
+
+.backepo1{
+    display: flex;
+    width: 1300px;
+    height: 512px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 32px;
+    background-color: #000000;
+}
+
+.epo1image {
+    width: 389px;
+    height: 432px;
+    margin: 40px 0px 40px 40px;
+}
+.contentepo1 {
+    width: 778px;
+    height: 432px;
+    margin: 40.44px 40px 39.56px 53px;
+    
+}
+
+.Gearepo1 {
+    width: 73px;
+    height: 27px;
+    text-align: center;
+    margin: 7.56px 0px 48.44px 0px;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #171614 ;
+    font-family:  sans-serif;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    padding-left: 16px;
+}
+.Gearepo1:hover{
+    background-color: #118DA8;
+}
+.Eposide1 {
+    width: 82px;
+    height: 27px;
+    color: #118DA8;
+    margin-bottom: 0;
+    font-family:  sans-serif;
+    margin-bottom: 17.56px;
+}
+.textepo1 {
+    width: 611px;
+    height: 141px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 57px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+.commitepo1 {
+    width: 767px;
+    height: 66px;
+    margin-top: 28px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2;
+}
+.epo1details {
+    width: 208px;
+    height: 51px;
+    margin-top: 18px;
+    background-color: #118DA8;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    padding-left: 20px;
+}
+.list3 {
+    width: 1440px;
+    height: 1530.4375px;
+    top: 3120.44px;
+}
+.contentli3 {
+    width: 590px;
+    height: 448px;
+    top: 147.72px;
+    margin: 100.44px 50px 99.12px 70px;
+}
+.li3image2 {
+    font-size: 40px;
+}
+.li3p {
+    width: 126px;
+    height: 27px;
+    margin-top: 20px;
+    color: #118DA8;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 27px;   
+}
+.li3h3 {
+    width: 496px;
+    height: 80px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    
+}
+.li3p2 {
+    margin-top: 28px;
+    width: 556px;
+    height: 66px;
+    top: 264.84px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2;
+    }
+.li3p3 {
+    margin-top: 33px;
+    width: 528px;
+    height: 66px;
+    font-family:sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2;
+    }
+.li3image {
+    display: flex;
+    width: 650px;
+    height: 743px;
+    margin: -643px 70px 100px 650px;
+    }
+.information {
+    display: flex;
+    width: 1300px;
+    height: 387px;
+    border-radius: 32px;
+    background-color: #000000;
+    margin: 300px 70px 100px 70px;
+    }
+.infoContent {
+    display: flex;
+    width: 642px;
+    height: 330px;
+    margin-top: 0.12px;
+    margin-right: 76px;
+    margin-bottom: 57.13px;
+    }
+.emailNews {
+    width: 139px;
+    height: 27px;
+    margin-top: 59.13px;
+    margin-left: 60px;
+    color: #118DA8;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    }
+.Subscribeh3 {
+    width: 431px;
+    height: 159px;
+    margin-top: 85.13px;
+    margin-left: -139px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    }
+.infoInput {
+
+    width: 522px;
+    height: 252px;
+    margin: 59.88px 60px 75.12px 0px;
+    }
+.name {
+    display: flex;
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #191919;
+    color: white;
+    margin-top: 0.12px;
+    margin-bottom: 20px;
+    
+    }
+.email {
+    width: 522px;
+    height: 82px;
+    margin-bottom: 20px;
+    background-color: #191919;
+    border-radius: 6px;
+    border-width: 1px;
+    }
+::placeholder {
+    width: 65px;
+    height: 29px;
+    font-family: sans-serif;
+    color: #FFFFFFB2;
+    margin: 26px 438px 27px 19px;
+
+    }
+.button1 {
+    font-family: sans-serif;
+    background-color: #118DA8;
+    color: white;
+    border-radius: 6px;
+    width: 53px;
+    height: 29px;
+    margin-top: 20px;
+    margin-bottom: 0.12px;
+    }
+.list4 {
+    width: 1440px;
+    height: 901px;
+    top: 4651px;
+    margin-left:20px ;
+    }
+.contentli4 {
+    display: flex;
+    width: 1400px;
+    height: 701px;
+    top: 99.88px;
+    flex-wrap:wrap;
+    gap: 16px;
+    margin-left: 50px;
+    }
+.li5 {
+    width: 1440px;
+    height: 438px;
+    }
+.contentli5 {
+    width: 1300px;
+    height: 238px;
+    top: 99.88px;
+    margin-left: 70px;
+    }
+.li5div1{
+    width: 447.140625px;
+    height: 222px;
+    display: flex;
+    gap: 10px;
+    }
+.li5logoimage {
+    width: 224px;
+    height: 46px;
+    }
+.instagramimage {
+    width: 24px;
+    height: 24px;
+    /* margin: 23px 10px 128.87px 0px; */
+    margin-top: 66.11px ;
+    margin-left: -234px;
+}
+.twitterimage {
+    width: 24px;
+    height: 24px;
+    margin-top: 66.11px ;
+
+    }
+.facebookimage {
+    width: 24px;
+    height: 24px;
+    margin-top: 66.11px ;
+
+    }
+.li5div2 {
+    display: flex;
+    width: 178.84375px;
+    height: 222px;
+    left: 463.14px;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin: -222px 16px 0px 513.14px;
+    color: #FFFFFF;
+    }
+.li5div3 {
+    width: 178.84375px;
+    height: 222px;
+    margin-left: 657.98px;
+    margin-top: -222px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color:#FFFFFF ;
+    }
+.li5images {
+    display: flex;
+    width: 447.140625px;
+    height: 32px;
+    margin-left: 852.83px;
+    margin-top: -222px;
+    gap:  17px;
+    }
