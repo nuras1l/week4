@@ -11,7 +11,6 @@ body {
     background-color: #141414;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
     font-style: normal;
 }
 
@@ -73,44 +72,67 @@ nav {
 .content {
     width: 500px;
     height: 500px;  
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans";
     font-optical-sizing: auto;
     font-style: normal;
-    font-weight: 400;
     margin-top: 74px;
+    margin-left: 60px;
 }
 
 .content h2 {
-    font-size: 70px;
-    line-height: 88px;
-    letter-spacing: 3.2px;
     margin-top: 300px;
     width: 526px;
     height: 176px;
     top: 162.58px;
 }
+.com1 {
+    font-family: "DM Sans";
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    width: 191px;
+    height: 88px;
 
+
+
+}
+.next {
+    font-family: "DM Sans";
+    width: 160px;
+    height: 88px;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    font-weight: 00;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+
+}
+.content b {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    }
 
 .content h2 span {
     width: 526;
     height: 176;
     top: 162.58px;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 75px;
-    line-height: 88px;
+    line-height: 80px;
     letter-spacing: 3.2px;
-
-
 }
 
 .content p{
     margin-top: 74px;
     font-size: 15px;
     font-family: "DM Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 00;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
@@ -336,6 +358,7 @@ color: #FFFFFFB2 ;
     color: #118DA8;
     margin-bottom: 0;
     font-family:  sans-serif;
+    font-weight: 300;
 
 }
 
@@ -365,6 +388,7 @@ color: #FFFFFFB2 ;
 }
 .epo2details {
     margin-top: 18px;
+    font-weight: 300;
 }
 
 .backepo1{
@@ -415,6 +439,7 @@ color: #FFFFFFB2 ;
     margin-bottom: 0;
     font-family:  sans-serif;
     margin-bottom: 17.56px;
+    font-weight: 300;
 }
 .textepo1 {
     width: 611px;
@@ -430,7 +455,7 @@ color: #FFFFFFB2 ;
     height: 66px;
     margin-top: 28px;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
@@ -448,6 +473,7 @@ color: #FFFFFFB2 ;
     font-family: sans-serif;
     align-items: center;
     padding-left: 20px;
+    font-weight: 300;
 }
 .list3 {
     width: 1440px;
@@ -534,7 +560,7 @@ color: #FFFFFFB2 ;
     margin-left: 60px;
     color: #118DA8;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0%;
@@ -545,7 +571,7 @@ color: #FFFFFFB2 ;
     margin-top: 85.13px;
     margin-left: -139px;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 72px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
@@ -655,7 +681,7 @@ color: #FFFFFFB2 ;
     left: 463.14px;
     flex-direction: column;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0%;
@@ -668,7 +694,7 @@ color: #FFFFFFB2 ;
     margin-left: 657.98px;
     margin-top: -222px;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0%;
