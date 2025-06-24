@@ -19,10 +19,12 @@ header {
     padding: 40px 50px 10px 50px;
     background-color: #141414;
 }
+
 .container {
     width: 1440px;
     margin: auto;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -39,7 +41,7 @@ nav {
 .menu {
     display: flex;
     gap: 40px;
-    list-style-type:none;
+    list-style-type: none;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -52,13 +54,13 @@ nav {
     text-decoration: none;
     font-size: 17px;
 }
-.menu a:hover{
-    color: #118DA8 ;
+
+.menu a:hover {
+    color: #118DA8;
 }
 
 .hero {
     display: flex;
-    justify-content: space-between;
     padding: 50px;
 }
 
@@ -71,64 +73,45 @@ nav {
 
 .content {
     width: 500px;
-    height: 500px;  
+    height: 500px;
     font-family: "DM Sans";
     font-optical-sizing: auto;
     font-style: normal;
     margin-top: 74px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
-.content h2 {
-    margin-top: 300px;
+.com1 {
     width: 526px;
     height: 176px;
     top: 162.58px;
-}
-.com1 {
-    font-family: "DM Sans";
-    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
     font-size: 70px;
     line-height: 88px;
-    letter-spacing: 3.2px;
-    width: 191px;
-    height: 88px;
-
-
+    letter-spacing:6.2px;
+    margin-top: 244px;
 
 }
-.next {
-    font-family: "DM Sans";
+
+.com1 span {
+    font-family: "DM Sans", sans-serif;
     width: 160px;
     height: 88px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 75px;
     line-height: 88px;
     letter-spacing: 3.2px;
     font-weight: 00;
     font-size: 75px;
     line-height: 88px;
-    letter-spacing: 3.2px;
-
-}
-.content b {
-    font-family: "DM Sans";
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 88px;
-    letter-spacing: 3.2px;
-    }
-
-.content h2 span {
-    width: 526;
-    height: 176;
-    top: 162.58px;
-    font-size: 75px;
-    line-height: 80px;
-    letter-spacing: 3.2px;
+    letter-spacing: 6.2px;
 }
 
-.content p{
+
+
+
+.content p {
     margin-top: 74px;
     font-size: 15px;
     font-family: "DM Sans", sans-serif;
@@ -136,7 +119,7 @@ nav {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
-    
+
 
 }
 
@@ -172,22 +155,24 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-left: 70px;
-    margin-right: 85px;
-    
+    margin-right: 70px;
+    margin-top: 100.44px;
+
 
 }
- .logoEposides{
-    
+
+.logoEposides {
+
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
-
     font-size: 64px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
     left: 50px;
     display: inline;
+    /* margin-right: 609px; */
 
 }
 
@@ -216,8 +201,8 @@ nav {
     display: flex;
     width: 1300px;
     height: 545px;
-    margin-top: -0.44px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 70px;
     border-radius: 32px;
     background-color: #000000;
 }
@@ -233,23 +218,24 @@ nav {
 .epo3content {
     margin-top: 40.44px;
     left: 482px;
-    margin-bottom:39.56px;
+    margin-bottom: 39.56px;
     margin-right: 40px;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .Gear {
     width: 73px;
     height: 27px;
     margin-top: 7.56px;
-    background-color: #171614 ;
-    
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    background-color: #171614;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     line-height: 27px;
     color: white;
@@ -260,8 +246,8 @@ nav {
     align-content: center;
 }
 
-.Gear:hover{
-    background-color:#118DA8 ;
+.Gear:hover {
+    background-color: #118DA8;
 }
 
 .Eposide3 {
@@ -272,22 +258,25 @@ nav {
     margin-bottom: 0;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
+
 .audio {
+    margin-top: 17.56px;
+    margin-bottom: 28px;
     font-weight: 500;
     font-size: 64px;
     line-height: 70.4px;
-    letter-spacing: 2.56px;
-    }
+}
+
 .epo3content h3 {
     width: 701px;
     height: 141px;
     top: 127.56px;
     font-size: 64px;
     line-height: 70.4px;
-    letter-spacing: 2.56px;
+    letter-spacing: 4.56px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -295,29 +284,32 @@ nav {
 
 
 }
+
 .commentepo3 {
-    margin-top: 28px;
     width: 757px;
-height: 99px;
-top: 296.56px;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-size: 22px;
-line-height: 33px;
-letter-spacing: 0%;
-color: #FFFFFFB2 ;
+    height: 99px;
+    top: 296.56px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2;
 
 }
+
 .epodetails {
+    margin-top: 16px;
     margin-bottom: 0.44px;
     width: 208px;
     height: 51px;
     top: 413.56px;
 
 }
-.backepo2{
+
+.backepo2 {
     display: flex;
     width: 1300px;
     height: 512px;
@@ -336,18 +328,18 @@ color: #FFFFFFB2 ;
 .epo2image {
     margin: 40px 0px 40px 40px;
 }
+
 .epo2content {
     display: inline;
-    margin: 40.44px 40px 39,56px 53px;
-    
+    margin: 40.44px 40px 39, 56px 53px;
+
 }
+
 .tips {
 
     width: 136px;
     height: 27px;
     margin: 48px 682px 0px 53px
-    
-
 }
 
 .Eposide2 {
@@ -356,42 +348,43 @@ color: #FFFFFFB2 ;
     width: 82px;
     height: 27px;
     color: #118DA8;
-    margin-bottom: 0;
-    font-family:  sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
 
 }
 
 .epo2h3 {
-    width: 676;
-    height: 141;
+    width: 676px;
+    height: 141px;
     top: 127.56px;
-    margin: 0px 102px 0px 53px;
+    margin-top: 17.56px;
+    margin-left: 53px;
     font-weight: 300;
     font-size: 64px;
     line-height: 70.4px;
-    letter-spacing: 2.56px;
-    font-family:  sans-serif;
+    letter-spacing: 4.56px;
+    font-family: "DM Sans", sans-serif;
 
 }
 
 .epo2p {
-    font-family:  sans-serif;
-    width: 773;
-    height: 66;
+    font-family: "DM Sans", sans-serif;
+    width: 780px;
+    height: 66px;
     margin-top: 28px;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
-    letter-spacing: 0%;
-    color: #FFFFFFB2 ;
+    color: #FFFFFFB2;
+    letter-spacing: 0;
 }
+
 .epo2details {
-    margin-top: 18px;
+    margin-top: 16px;
     font-weight: 300;
 }
 
-.backepo1{
+.backepo1 {
     display: flex;
     width: 1300px;
     height: 512px;
@@ -406,11 +399,12 @@ color: #FFFFFFB2 ;
     height: 432px;
     margin: 40px 0px 40px 40px;
 }
+
 .contentepo1 {
     width: 778px;
     height: 432px;
     margin: 40.44px 40px 39.56px 53px;
-    
+
 }
 
 .Gearepo1 {
@@ -420,8 +414,8 @@ color: #FFFFFFB2 ;
     margin: 7.56px 0px 48.44px 0px;
     font-size: 18px;
     line-height: 27px;
-    background-color: #171614 ;
-    font-family:  sans-serif;
+    background-color: #171614;
+    font-family: "DM Sans", sans-serif;
     color: white;
     border-radius: 3px;
     text-decoration: none;
@@ -429,38 +423,43 @@ color: #FFFFFFB2 ;
     align-content: center;
     padding-left: 16px;
 }
-.Gearepo1:hover{
+
+.Gearepo1:hover {
     background-color: #118DA8;
 }
+
 .Eposide1 {
     width: 82px;
     height: 27px;
     color: #118DA8;
     margin-bottom: 0;
-    font-family:  sans-serif;
+    font-family: "DM Sans", sans-serif;
     margin-bottom: 17.56px;
     font-weight: 300;
 }
+
 .textepo1 {
     width: 611px;
     height: 141px;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
     font-size: 57px;
     line-height: 70.4px;
-    letter-spacing: 2.56px;
+    letter-spacing: 4.56px;
 }
+
 .commitepo1 {
     width: 767px;
     height: 66px;
     margin-top: 28px;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
     color: #FFFFFFB2;
 }
+
 .epo1details {
     width: 208px;
     height: 51px;
@@ -470,73 +469,81 @@ color: #FFFFFFB2 ;
     border-radius: 5px;
     text-decoration: none;
     display: flex;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     align-items: center;
-    padding-left: 20px;
     font-weight: 300;
-}
+    justify-content: center;}
+
 .list3 {
     width: 1440px;
     height: 1530.4375px;
     top: 3120.44px;
 }
+
 .contentli3 {
     width: 590px;
     height: 448px;
     top: 147.72px;
     margin: 100.44px 50px 99.12px 70px;
 }
+
 .li3image2 {
     font-size: 40px;
 }
+
 .li3p {
     width: 126px;
     height: 27px;
     margin-top: 20px;
     color: #118DA8;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
-    line-height: 27px;   
+    line-height: 27px;
 }
+
 .li3h3 {
     width: 496px;
     height: 80px;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 65px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
-    
+
 }
+
 .li3p2 {
     margin-top: 28px;
     width: 556px;
     height: 66px;
     top: 264.84px;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
     color: #FFFFFFB2;
-    }
+}
+
 .li3p3 {
     margin-top: 33px;
     width: 528px;
     height: 66px;
-    font-family:sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
     color: #FFFFFFB2;
-    }
+}
+
 .li3image {
     display: flex;
     width: 650px;
     height: 743px;
     margin: -643px 70px 100px 650px;
-    }
+}
+
 .information {
     display: flex;
     width: 1300px;
@@ -544,7 +551,8 @@ color: #FFFFFFB2 ;
     border-radius: 32px;
     background-color: #000000;
     margin: 300px 70px 100px 70px;
-    }
+}
+
 .infoContent {
     display: flex;
     width: 642px;
@@ -552,36 +560,40 @@ color: #FFFFFFB2 ;
     margin-top: 0.12px;
     margin-right: 76px;
     margin-bottom: 57.13px;
-    }
+}
+
 .emailNews {
     width: 139px;
     height: 27px;
     margin-top: 59.13px;
     margin-left: 60px;
     color: #118DA8;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0%;
-    }
+}
+
 .Subscribeh3 {
     width: 431px;
     height: 159px;
     margin-top: 85.13px;
     margin-left: -139px;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 300;
     font-size: 72px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
-    }
+}
+
 .infoInput {
 
     width: 522px;
     height: 252px;
     margin: 59.88px 60px 75.12px 0px;
-    }
+}
+
 .name {
     display: flex;
     width: 522px;
@@ -592,8 +604,11 @@ color: #FFFFFFB2 ;
     color: white;
     margin-top: 0.12px;
     margin-bottom: 20px;
-    
-    }
+    padding-left: 20px;
+    font-size: 24px;
+
+}
+
 .email {
     width: 522px;
     height: 82px;
@@ -601,114 +616,140 @@ color: #FFFFFFB2 ;
     background-color: #191919;
     border-radius: 6px;
     border-width: 1px;
-    }
+    padding-left: 20px;
+    font-size: 24px;
+
+
+}
+
 ::placeholder {
     width: 65px;
     height: 29px;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
     color: #FFFFFFB2;
     margin: 26px 438px 27px 19px;
 
-    }
+}
+
 .button1 {
-    font-family: sans-serif;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
     background-color: #118DA8;
     color: white;
     border-radius: 6px;
-    width: 53px;
-    height: 29px;
+    width: 87px;
+    height: 48px;
     margin-top: 20px;
-    margin-bottom: 0.12px;
-    }
+    justify-content: center;
+    align-items: center;
+}
+
 .list4 {
     width: 1440px;
     height: 901px;
     top: 4651px;
-    margin-left:20px ;
-    }
+    margin-left: 20px;
+}
+
 .contentli4 {
     display: flex;
     width: 1400px;
     height: 701px;
     top: 99.88px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 16px;
     margin-left: 50px;
-    }
+}
+
 .li5 {
     width: 1440px;
     height: 438px;
-    }
+}
+
 .contentli5 {
     width: 1300px;
     height: 238px;
     top: 99.88px;
     margin-left: 70px;
-    }
-.li5div1{
+}
+
+.li5div1 {
     width: 447.140625px;
     height: 222px;
     display: flex;
     gap: 10px;
-    }
+}
+
 .li5logoimage {
     width: 224px;
     height: 46px;
-    }
+}
+
 .instagramimage {
     width: 24px;
     height: 24px;
     /* margin: 23px 10px 128.87px 0px; */
-    margin-top: 66.11px ;
+    margin-top: 66.11px;
     margin-left: -234px;
 }
+
 .twitterimage {
     width: 24px;
     height: 24px;
-    margin-top: 66.11px ;
+    margin-top: 66.11px;
 
-    }
+}
+
 .facebookimage {
     width: 24px;
     height: 24px;
-    margin-top: 66.11px ;
+    margin-top: 66.11px;
 
-    }
+}
+
 .li5div2 {
     display: flex;
     width: 178.84375px;
     height: 222px;
     left: 463.14px;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0%;
     margin: -222px 16px 0px 513.14px;
     color: #FFFFFF;
-    }
+    gap: 10px;
+}
+
 .li5div3 {
+    display: flex;
+    flex-direction: column;
+
     width: 178.84375px;
     height: 222px;
     margin-left: 657.98px;
     margin-top: -222px;
-    font-family: sans-serif;
+    font-family:  sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0%;
-    color:#FFFFFF ;
-    }
+    color: #FFFFFF;
+    gap: 10px;
+}
+
 .li5images {
     display: flex;
     width: 447.140625px;
     height: 32px;
     margin-left: 852.83px;
     margin-top: -222px;
-    gap:  17px;
-    }
+    gap: 17px;
+}
+
 .poloska {
     width: 140px;
     height: 104px;
-    }
+}
